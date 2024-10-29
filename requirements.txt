@@ -1,0 +1,7 @@
+"snowflake-connector-python[pandas]"
+streamlit
+pandas
+altair_saver
+vl-convert-python
+python-dotenv
+snowflake-snowpark-python
