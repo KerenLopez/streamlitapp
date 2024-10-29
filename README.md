@@ -1,10 +1,10 @@
-# Miniaplicativos: `agricultura.py` y `exportaciones.py`
+# Miniaplicativo: `agricultura.py`
 
-Este repositorio contiene dos scripts de Python, `agricultura.py` y `exportaciones.py`, diseñados para interactuar con datos almacenados en Snowflake. Los scripts están destinados a procesar y analizar datos agrícolas y de exportaciones, respectivamente.
+Este repositorio contiene un scripts de Python llamado`agricultura.py`, el cual esta diseñado para interactuar con datos almacenados en Snowflake, además de procesar y analizar datos agrícolas.
 
 ## Requisitos Previos
 
-Este proyecto fue creado con la versión 3.8.19 de Python. Antes de ejecutar los scripts, asegúrate de tener instaladas las siguientes dependencias (lo ideal sería que crees un entorno de conda para realizarlo):
+Este proyecto fue creado con la versión 3.8.19 de Python. Antes de ejecutar el script, asegúrate de tener instaladas las siguientes dependencias (lo ideal sería que crees un entorno de conda para realizarlo):
 
 - **Snowflake Connector for Python** (`snowflake-connector-python[pandas]`)
 - **Snowpark for Python** (`snowflake-snowpark-python`)
@@ -27,18 +27,15 @@ pip install snowflake-snowpark-python
 ```
 
 ## Ejecución del Proyecto
-Para ejecutar el script de agricultura.py o exportaciones.py utilizando Streamlit, sigue los siguientes pasos:
+Para ejecutar el script de agricultura.py utilizando Streamlit, siga los siguientes pasos:
 
 1. Navega hasta el directorio donde se encuentran los scripts:
 ```bash
 cd "snowflake/Otros scripts/miniaplicativos"
 ```
-2. Elige el comando según el aplicativo que quieras correr:
+2. Corre el aplicativo:
 ```bash
 python -m streamlit run agricultura.py
-```
-```bash
-python -m streamlit run exportaciones.py
 ```
 
 ## Referencias
